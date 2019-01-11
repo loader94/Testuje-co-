@@ -5,7 +5,7 @@ namespace testgita
 {
     class Program
     {
-        public void test()
+        static public void test()
         {
             Console.WriteLine("xD"); 
         }
@@ -14,6 +14,7 @@ namespace testgita
             ArrayList a = new ArrayList();
             for (int i = 0; i < 100; i++)
                 Console.Write(a.Add(i));
+            test();
         }
     }
 }
