@@ -5,6 +5,10 @@ namespace testgita
 {
     class Program
     {
+        public void test()
+        {
+            Console.WriteLine("xD"); 
+        }
         static void Main(string[] args)
         {
             ArrayList a = new ArrayList();
